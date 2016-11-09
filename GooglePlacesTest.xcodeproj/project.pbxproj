@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80C60F7D1DD3A62C00D85FF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C60F7C1DD3A62C00D85FF2 /* AppDelegate.swift */; };
+		80C60F7F1DD3A62C00D85FF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C60F7E1DD3A62C00D85FF2 /* ViewController.swift */; };
+		80C60F821DD3A62C00D85FF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C60F801DD3A62C00D85FF2 /* Main.storyboard */; };
+		80C60F841DD3A62C00D85FF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80C60F831DD3A62C00D85FF2 /* Assets.xcassets */; };
+		80C60F871DD3A62C00D85FF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C60F851DD3A62C00D85FF2 /* LaunchScreen.storyboard */; };
+		80C60F921DD3A62C00D85FF2 /* GooglePlacesTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C60F911DD3A62C00D85FF2 /* GooglePlacesTestTests.swift */; };
+		80C60F9D1DD3A62D00D85FF2 /* GooglePlacesTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C60F9C1DD3A62D00D85FF2 /* GooglePlacesTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80C60F8E1DD3A62C00D85FF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80C60F711DD3A62C00D85FF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80C60F781DD3A62C00D85FF2;
+			remoteInfo = GooglePlacesTest;
+		};
+		80C60F991DD3A62D00D85FF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80C60F711DD3A62C00D85FF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80C60F781DD3A62C00D85FF2;
+			remoteInfo = GooglePlacesTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80C60F791DD3A62C00D85FF2 /* GooglePlacesTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GooglePlacesTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80C60F7C1DD3A62C00D85FF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80C60F7E1DD3A62C00D85FF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80C60F811DD3A62C00D85FF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80C60F831DD3A62C00D85FF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80C60F861DD3A62C00D85FF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80C60F881DD3A62C00D85FF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80C60F8D1DD3A62C00D85FF2 /* GooglePlacesTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GooglePlacesTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80C60F911DD3A62C00D85FF2 /* GooglePlacesTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlacesTestTests.swift; sourceTree = "<group>"; };
+		80C60F931DD3A62C00D85FF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80C60F981DD3A62D00D85FF2 /* GooglePlacesTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GooglePlacesTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80C60F9C1DD3A62D00D85FF2 /* GooglePlacesTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlacesTestUITests.swift; sourceTree = "<group>"; };
+		80C60F9E1DD3A62D00D85FF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80C60F761DD3A62C00D85FF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C60F8A1DD3A62C00D85FF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C60F951DD3A62C00D85FF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80C60F701DD3A62C00D85FF2 = {
+			isa = PBXGroup;
+			children = (
+				80C60F7B1DD3A62C00D85FF2 /* GooglePlacesTest */,
+				80C60F901DD3A62C00D85FF2 /* GooglePlacesTestTests */,
+				80C60F9B1DD3A62D00D85FF2 /* GooglePlacesTestUITests */,
+				80C60F7A1DD3A62C00D85FF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80C60F7A1DD3A62C00D85FF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80C60F791DD3A62C00D85FF2 /* GooglePlacesTest.app */,
+				80C60F8D1DD3A62C00D85FF2 /* GooglePlacesTestTests.xctest */,
+				80C60F981DD3A62D00D85FF2 /* GooglePlacesTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80C60F7B1DD3A62C00D85FF2 /* GooglePlacesTest */ = {
+			isa = PBXGroup;
+			children = (
+				80C60F7C1DD3A62C00D85FF2 /* AppDelegate.swift */,
+				80C60F7E1DD3A62C00D85FF2 /* ViewController.swift */,
+				80C60F801DD3A62C00D85FF2 /* Main.storyboard */,
+				80C60F831DD3A62C00D85FF2 /* Assets.xcassets */,
+				80C60F851DD3A62C00D85FF2 /* LaunchScreen.storyboard */,
+				80C60F881DD3A62C00D85FF2 /* Info.plist */,
+			);
+			path = GooglePlacesTest;
+			sourceTree = "<group>";
+		};
+		80C60F901DD3A62C00D85FF2 /* GooglePlacesTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				80C60F911DD3A62C00D85FF2 /* GooglePlacesTestTests.swift */,
+				80C60F931DD3A62C00D85FF2 /* Info.plist */,
+			);
+			path = GooglePlacesTestTests;
+			sourceTree = "<group>";
+		};
+		80C60F9B1DD3A62D00D85FF2 /* GooglePlacesTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80C60F9C1DD3A62D00D85FF2 /* GooglePlacesTestUITests.swift */,
+				80C60F9E1DD3A62D00D85FF2 /* Info.plist */,
+			);
+			path = GooglePlacesTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80C60F781DD3A62C00D85FF2 /* GooglePlacesTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80C60FA11DD3A62D00D85FF2 /* Build configuration list for PBXNativeTarget "GooglePlacesTest" */;
+			buildPhases = (
+				80C60F751DD3A62C00D85FF2 /* Sources */,
+				80C60F761DD3A62C00D85FF2 /* Frameworks */,
+				80C60F771DD3A62C00D85FF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GooglePlacesTest;
+			productName = GooglePlacesTest;
+			productReference = 80C60F791DD3A62C00D85FF2 /* GooglePlacesTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80C60F8C1DD3A62C00D85FF2 /* GooglePlacesTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80C60FA41DD3A62D00D85FF2 /* Build configuration list for PBXNativeTarget "GooglePlacesTestTests" */;
+			buildPhases = (
+				80C60F891DD3A62C00D85FF2 /* Sources */,
+				80C60F8A1DD3A62C00D85FF2 /* Frameworks */,
+				80C60F8B1DD3A62C00D85FF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80C60F8F1DD3A62C00D85FF2 /* PBXTargetDependency */,
+			);
+			name = GooglePlacesTestTests;
+			productName = GooglePlacesTestTests;
+			productReference = 80C60F8D1DD3A62C00D85FF2 /* GooglePlacesTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80C60F971DD3A62C00D85FF2 /* GooglePlacesTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80C60FA71DD3A62D00D85FF2 /* Build configuration list for PBXNativeTarget "GooglePlacesTestUITests" */;
+			buildPhases = (
+				80C60F941DD3A62C00D85FF2 /* Sources */,
+				80C60F951DD3A62C00D85FF2 /* Frameworks */,
+				80C60F961DD3A62C00D85FF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80C60F9A1DD3A62D00D85FF2 /* PBXTargetDependency */,
+			);
+			name = GooglePlacesTestUITests;
+			productName = GooglePlacesTestUITests;
+			productReference = 80C60F981DD3A62D00D85FF2 /* GooglePlacesTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80C60F711DD3A62C00D85FF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Erin Dieringer";
+				TargetAttributes = {
+					80C60F781DD3A62C00D85FF2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					80C60F8C1DD3A62C00D85FF2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 80C60F781DD3A62C00D85FF2;
+					};
+					80C60F971DD3A62C00D85FF2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 80C60F781DD3A62C00D85FF2;
+					};
+				};
+			};
+			buildConfigurationList = 80C60F741DD3A62C00D85FF2 /* Build configuration list for PBXProject "GooglePlacesTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80C60F701DD3A62C00D85FF2;
+			productRefGroup = 80C60F7A1DD3A62C00D85FF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80C60F781DD3A62C00D85FF2 /* GooglePlacesTest */,
+				80C60F8C1DD3A62C00D85FF2 /* GooglePlacesTestTests */,
+				80C60F971DD3A62C00D85FF2 /* GooglePlacesTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80C60F771DD3A62C00D85FF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C60F871DD3A62C00D85FF2 /* LaunchScreen.storyboard in Resources */,
+				80C60F841DD3A62C00D85FF2 /* Assets.xcassets in Resources */,
+				80C60F821DD3A62C00D85FF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C60F8B1DD3A62C00D85FF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C60F961DD3A62C00D85FF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80C60F751DD3A62C00D85FF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C60F7F1DD3A62C00D85FF2 /* ViewController.swift in Sources */,
+				80C60F7D1DD3A62C00D85FF2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C60F891DD3A62C00D85FF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C60F921DD3A62C00D85FF2 /* GooglePlacesTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C60F941DD3A62C00D85FF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C60F9D1DD3A62D00D85FF2 /* GooglePlacesTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80C60F8F1DD3A62C00D85FF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80C60F781DD3A62C00D85FF2 /* GooglePlacesTest */;
+			targetProxy = 80C60F8E1DD3A62C00D85FF2 /* PBXContainerItemProxy */;
+		};
+		80C60F9A1DD3A62D00D85FF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80C60F781DD3A62C00D85FF2 /* GooglePlacesTest */;
+			targetProxy = 80C60F991DD3A62D00D85FF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80C60F801DD3A62C00D85FF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C60F811DD3A62C00D85FF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80C60F851DD3A62C00D85FF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C60F861DD3A62C00D85FF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80C60F9F1DD3A62D00D85FF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80C60FA01DD3A62D00D85FF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80C60FA21DD3A62D00D85FF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GooglePlacesTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Erin.GooglePlacesTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		80C60FA31DD3A62D00D85FF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GooglePlacesTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Erin.GooglePlacesTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		80C60FA51DD3A62D00D85FF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GooglePlacesTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Erin.GooglePlacesTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GooglePlacesTest.app/GooglePlacesTest";
+			};
+			name = Debug;
+		};
+		80C60FA61DD3A62D00D85FF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GooglePlacesTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Erin.GooglePlacesTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GooglePlacesTest.app/GooglePlacesTest";
+			};
+			name = Release;
+		};
+		80C60FA81DD3A62D00D85FF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GooglePlacesTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Erin.GooglePlacesTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GooglePlacesTest;
+			};
+			name = Debug;
+		};
+		80C60FA91DD3A62D00D85FF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GooglePlacesTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Erin.GooglePlacesTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GooglePlacesTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80C60F741DD3A62C00D85FF2 /* Build configuration list for PBXProject "GooglePlacesTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80C60F9F1DD3A62D00D85FF2 /* Debug */,
+				80C60FA01DD3A62D00D85FF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80C60FA11DD3A62D00D85FF2 /* Build configuration list for PBXNativeTarget "GooglePlacesTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80C60FA21DD3A62D00D85FF2 /* Debug */,
+				80C60FA31DD3A62D00D85FF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		80C60FA41DD3A62D00D85FF2 /* Build configuration list for PBXNativeTarget "GooglePlacesTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80C60FA51DD3A62D00D85FF2 /* Debug */,
+				80C60FA61DD3A62D00D85FF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		80C60FA71DD3A62D00D85FF2 /* Build configuration list for PBXNativeTarget "GooglePlacesTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80C60FA81DD3A62D00D85FF2 /* Debug */,
+				80C60FA91DD3A62D00D85FF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80C60F711DD3A62C00D85FF2 /* Project object */;
+}
